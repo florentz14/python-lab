@@ -1,0 +1,43 @@
+COMANDOS PARA PUBLICAR EN GITHUB
+=================================
+
+PASO 1: Crear repositorio en GitHub
+------------------------------------
+1. Abre tu navegador y ve a: https://github.com/new
+2. Repository name: python-lab
+3. Description: Coleccion completa de algoritmos y estructuras de datos en Python
+4. Visibilidad: Public o Private
+5. NO marques "Initialize with README"
+6. NO agregues .gitignore ni licencia
+7. Haz clic en "Create repository"
+
+
+PASO 2: Ejecutar estos comandos en la terminal
+-----------------------------------------------
+git remote add origin https://github.com/florentz14/python-lab.git
+
+git push -u origin main
+
+
+PASO 3: Autenticacion (si es necesario)
+----------------------------------------
+Si te pide usuario y contraseña:
+- Usuario: florentz14
+- Contraseña: Usa un Personal Access Token (NO tu contraseña de GitHub)
+
+Para crear un token:
+1. Ve a: https://github.com/settings/tokens
+2. Click en "Generate new token (classic)"
+3. Nombre: "python-lab"
+4. Selecciona scope: "repo" (marca todas las opciones de repo)
+5. Click en "Generate token"
+6. COPIA el token (solo se muestra una vez)
+7. Usa este token como contraseña cuando Git lo pida
+
+
+VERIFICACION
+------------
+Despues de hacer push, verifica en:
+https://github.com/florentz14/python-lab
+
+Si todos los archivos aparecen, ¡listo!
