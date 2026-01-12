@@ -1,0 +1,13 @@
+# Archivo de plantilla para variables de entorno
+# Copia este archivo a .env y agrega tu API key real
+
+# OpenAI API Key
+# Obtén tu API key en: https://platform.openai.com/api-keys
+OPENAI_API_KEY=tu_api_key_aqui
+
+# Instrucciones:
+# 1. Copia este archivo como .env: copy env_template.txt .env
+# 2. Abre .env con un editor de texto
+# 3. Reemplaza 'tu_api_key_aqui' con tu API key real de OpenAI
+# 4. Guarda el archivo
+# 5. NUNCA subas el archivo .env a Git (debe estar en .gitignore)
