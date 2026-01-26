@@ -9,8 +9,6 @@
 #              2. Magic Dates
 #              3. February Days (Leap Year)
 #              4. Body Mass Index (BMI)
-# 
-# Note: This file can be run directly or used in Jupyter Notebook
 # -------------------------------------------------
 
 # =============================================================================
